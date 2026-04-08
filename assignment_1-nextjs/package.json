@@ -1,0 +1,27 @@
+{
+  "name": "assignment_1-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "contentful": "^11.8.12",
+    "contentful-management": "^11.63.1",
+    "cookie": "^1.1.1",
+    "dotenv": "^17.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "next": "16.0.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.0.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^10.4.0"
+  }
+}
